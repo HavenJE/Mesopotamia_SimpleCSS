@@ -6,12 +6,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 
+    <!-- Google font CSS -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;1,900&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="app.css">
 
@@ -20,101 +22,288 @@
 
 <body>
 
-    <nav id="mainNavbar" class="navbar navbar-dark bg-dark navbar-expand-md fixed-top">
-        <a href="#" class="navbar-brand">
-            Mesopotamia
-        </a>
+    <div class="container">
 
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="navLinks"
-            aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
+        <nav id="mainNavbar" class="navbar navbar-dark bg-dark navbar-expand-md fixed-top">
+            <a href="#" class="navbar-brand">
+                Mesopotamia
+                <img src="Images/brand1.jpg" class="img-fluid" alt="">
+            </a>
 
-        <div class="collapse navbar-collapse" id="navLinks">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navLinks"
+                aria-label="Toggle navigation">
 
-            <ul class="navbar-nav">
-                <li class="nav-item">
-                    <a href="" class="nav-link"> Home Page </a>
-                </li>
+                <span class="navbar-toggler-icon"></span>
+            </button>
 
-                <li class="nav-item">
-                    <a href="" class="nav-link"> Etymology </a>
-                </li>
+            <div class="collapse navbar-collapse" id="#navLinks">
 
-                <li class="nav-item">
-                    <a href="" class="nav-link"> Geography </a>
-                </li>
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a href="" class="nav-link"> Home Page </a>
+                    </li>
 
-                <li class="nav-item">
-                    <a href="" class="nav-link"> History </a>
-                </li>
+                    <li class="nav-item">
+                        <a href="" class="nav-link"> Etymology </a>
+                    </li>
 
-                <li class="nav-item">
-                    <a href="" class="nav-link"> Language and writing </a>
-                </li>
-            </ul>
+                    <li class="nav-item">
+                        <a href="" class="nav-link"> Geography </a>
+                    </li>
 
-        </div>
-    </nav>
+                    <li class="nav-item">
+                        <a href="" class="nav-link"> History </a>
+                    </li>
 
-    <section class="container-fluid ">
+                    <li class="nav-item">
+                        <a href="" class="nav-link"> Language and writing </a>
+                    </li>
+                </ul>
+
+            </div>
+        </nav>
+    </div>
+
+    <br />
+
+    <section class="container-fluid mt-lg-5 ">
+        <!-- 5 marign space on top => mt-5 -->
         <div class="row align-items-center">
-            <div class="col-6">
-                <div>
-                    Mesopotamia (Ancient Greek: Μεσοποταμία Mesopotamíā; Arabic: بِلَاد ٱلرَّافِدَيْن Bilād ar-Rāfidayn;
-                    Classical Syriac: ܐܪܡ ܢܗܪ̈ܝܢ, Ārām-Nahrīn or ܒܝܬ ܢܗܪ̈ܝܢ, Bēṯ Nahrīn) is a historical region of
-                    Western
-                    Asia situated within the Tigris–Euphrates river system, in the northern part of the Fertile
-                    Crescent.
-                    Mesopotamia occupies most of present-day Iraq and Kuwait. The historical region includes the head of
-                    the
-                    Persian Gulf and parts of present-day Iran, Syria, and Turkey.
-                </div>
+            <div class="col-lg-6 text-center">
+                <!-- marign 5 on the y-axis - this gives space on the top and bottom => my-5 -->
+                <!-- marign 5 on the x-axis - this gives space on the sides => mx-5 -->
+                <div class="col-11 my-5 mx-5">
 
-                <div>
-                    The Sumerians and Akkadians (including Assyrians and Babylonians) dominated Mesopotamia from the
-                    beginning of written history (c. 3100 BC) to the fall of Babylon in 539 BC, when it was conquered by
-                    the
-                    Achaemenid Empire. It fell to Alexander the Great in 332 BC, and after his death, it became part of
-                    the
-                    Greek Seleucid Empire. Later the Arameans dominated major parts of Mesopotamia (c. 900 BC – 270 AD).
-                </div>
+                    <div class="paragraph">
+                        <h5> Background </h5>
+                        Mesopotamia (Ancient Greek: Μεσοποταμία Mesopotamíā; Arabic: بِلَاد ٱلرَّافِدَيْن Bilād
+                        ar-Rāfidayn;
+                        Classical Syriac: ܐܪܡ ܢܗܪ̈ܝܢ, Ārām-Nahrīn or ܒܝܬ ܢܗܪ̈ܝܢ, Bēṯ Nahrīn) is a historical region of
+                        Western
+                        Asia situated within the Tigris–Euphrates river system, in the northern part of the Fertile
+                        Crescent.
+                        Mesopotamia occupies most of present-day Iraq and Kuwait. The historical region includes the
+                        head of
+                        the
+                        Persian Gulf and parts of present-day Iran, Syria, and Turkey.
+                    </div>
+                    <br />
+                    <div class="paragraph">
+                        The Sumerians and Akkadians (including Assyrians and Babylonians) dominated Mesopotamia from the
+                        beginning of written history (c. 3100 BC) to the fall of Babylon in 539 BC, when it was
+                        conquered by
+                        the
+                        Achaemenid Empire. It fell to Alexander the Great in 332 BC, and after his death, it became part
+                        of
+                        the
+                        Greek Seleucid Empire. Later the Arameans dominated major parts of Mesopotamia (c. 900 BC – 270
+                        AD).
+                    </div>
+                    <br />
 
-                <div>
-                    Around 150 BC, Mesopotamia was under the control of the Parthian Empire. Mesopotamia became a
-                    battleground between the Romans and Parthians, with western parts of Mesopotamia coming under
-                    ephemeral
-                    Roman control. In 226 AD, the eastern regions of Mesopotamia fell to the Sassanid Persians. The
-                    division
-                    of Mesopotamia between Roman (Byzantine from 395 AD) and Sassanid Empires lasted until the 7th
-                    century
-                    Muslim conquest of Persia of the Sasanian Empire and Muslim conquest of the Levant from Byzantines.
-                    A
-                    number of primarily neo-Assyrian and Christian native Mesopotamian states existed between the 1st
-                    century BC and 3rd century BC, including Adiabene, Osroene, and Hatra.
-                </div>
+                    <div class="paragraph">
+                        Around 150 BC, Mesopotamia was under the control of the Parthian Empire. Mesopotamia became a
+                        battleground between the Romans and Parthians, with western parts of Mesopotamia coming under
+                        ephemeral
+                        Roman control. In 226 AD, the eastern regions of Mesopotamia fell to the Sassanid Persians. The
+                        division
+                        of Mesopotamia between Roman (Byzantine from 395 AD) and Sassanid Empires lasted until the 7th
+                        century
+                        Muslim conquest of Persia of the Sasanian Empire and Muslim conquest of the Levant from
+                        Byzantines.
+                        A
+                        number of primarily neo-Assyrian and Christian native Mesopotamian states existed between the
+                        1st
+                        century BC and 3rd century BC, including Adiabene, Osroene, and Hatra.
+                    </div>
+                    <br />
 
-                <div>
-                    Mesopotamia is the site of the earliest developments of the Neolithic Revolution from around 10,000
-                    BC.
-                    It has been identified as having "inspired some of the most important developments in human history,
-                    including the invention of the wheel, the planting of the first cereal crops, and the development of
-                    cursive script, mathematics, astronomy, and agriculture". It has been known as one of the earliest
-                    civilizations to ever exist in the world.
+                    <div class="paragraph">
+                        Mesopotamia is the site of the earliest developments of the Neolithic Revolution from around
+                        10,000
+                        BC.
+                        It has been identified as having "inspired some of the most important developments in human
+                        history,
+                        including the invention of the wheel, the planting of the first cereal crops, and the
+                        development of
+                        cursive script, mathematics, astronomy, and agriculture". It has been known as one of the
+                        earliest
+                        civilizations to ever exist in the world.
+                    </div>
                 </div>
 
             </div>
 
-            <div class="col-6">
-                <img class="img-fluid" src="Images/ancient2.jpg" alt="">
+            <div class="col-lg-6 ">
+                <img class="img-fluid" src="Images/ancient1.jpg" alt="">
             </div>
         </div>
     </section>
 
+    <section class="container-fluid ">
+        <!-- this row has 12 col, within it, we have 2 x col-6 -->
+        <div class="row align-items-center">
+            <!-- This is the first col-6 -->
+            <!-- col-md-6 order-2 order-md-1 means this div comes after the div with the order -1 but becomes the first on the page size is medium -->
+            <div class="col-lg-5 col-md-7 order-2 order-lg-1 px-5">
+                <img class="img-fluid text-center" src="Images/ancient2.jpg" alt="">
+            </div>
+            <br />
+            <!-- This is the 2ed col-6 -->
+            <div class="col-lg-7 col-md-9 text-center order-1 order-lg-2 ">
+                <div class="row">
+                    <!-- Within the 2ed col-6, we have another col which is 12 -->
+                    <div class="col-12 px-5">
+                        <p class="lead">
+                        <h5> Etymology </h5>
 
+                        <div class="paragraph">
+                            The regional toponym Mesopotamia (/ˌmɛsəpəˈteɪmiə/, Ancient Greek: Μεσοποταμία '[land]
+                            between
+                            rivers'; Arabic: بِلَاد ٱلرَّافِدَيْن Bilād ar-Rāfidayn or بَيْن ٱلنَّهْرَيْن Bayn
+                            an-Nahrayn;
+                            Persian: میان‌رودان miyân rudân; Syriac: ܒܝܬ ܢܗܪ̈ܝܢ Beth Nahrain "land of rivers") comes
+                            from the
+                            ancient Greek root words μέσος (mesos, 'middle') and ποταμός (potamos, 'river') and
+                            translates to
+                            '(land) between rivers'. It is used throughout the Greek Septuagint (c. 250 BC) to translate
+                            the
+                            Hebrew and Aramaic equivalent Naharaim. An even earlier Greek usage of the name Mesopotamia
+                            is
+                            evident from The Anabasis of Alexander, which was written in the late 2nd century AD but
+                            specifically refers to sources from the time of Alexander the Great. In the Anabasis,
+                            Mesopotamia
+                            was used to designate the land east of the Euphrates in north Syria. The term Ārām Nahrīn
+                            (Classical
+                            Syriac: ܐܪܡ ܢܗܪ̈ܝܢ) (Hebrew: ארם נהריים, Aram Naharayim) was used multiple times in the Old
+                            Testament of the Bible to describe "Aram between the (two) rivers".
+                        </div>
+
+                        <br />
+
+                        <div class="paragraph">
+                            The Aramaic term biritum/birit narim corresponded to a similar geographical concept. Later,
+                            the
+                            term Mesopotamia was more generally applied to all the lands between the Euphrates and the
+                            Tigris,
+                            thereby incorporating not only parts of Syria but also almost all of Iraq and southeastern
+                            Turkey. The neighbouring steppes to the west of the Euphrates and the western part of the
+                            Zagros
+                            Mountains are also often included under the wider term Mesopotamia.
+
+                            A further distinction is usually made between Northern or Upper Mesopotamia and Southern or
+                            Lower
+                            Mesopotamia. Upper Mesopotamia, also known as the Jazira, is the area between the Euphrates
+                            and
+                            the Tigris from their sources down to Baghdad.[18] Lower Mesopotamia is the area from
+                            Baghdad to the
+                            Persian Gulf and includes Kuwait and parts of western Iran.
+                        </div>
+
+                        <br />
+
+                        <div class="paragraph">
+                            In modern academic usage, the term Mesopotamia often also has a chronological connotation.
+                            It is
+                            usually used to designate the area until the Muslim conquests, with names like Syria,
+                            Jazira, and
+                            Iraq being used to describe the region after that date. It has been argued that these later
+                            euphemisms[clarification needed] are Eurocentric terms attributed to the region in the midst
+                            of
+                            various 19th-century Western encroachments.
+                        </div>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="container-fluid">
+        <div class="row align-items-center">
+
+            <div class="col-md-5 my-5 mx-5">
+                <h4>Periodization</h4>
+                <h6> Pre- and protohistory </h6>
+                <ul>
+                    <li>Pre-Pottery Neolithic A (10,000–8700 BC)</li>
+                    <li>Pre-Pottery Neolithic B (8700–6800 BC)</li>
+                    <li>Jarmo (7500–5000 BC)</li>
+                    <li>Hassuna (~6000 BC–? BC), Samarra (~5700–4900 BC) and Halaf cultures (~6000–5300 BC) cultures
+                    </li>
+                    <li>Ubaid period (~6500–4000 BC)</li>
+                    <li>Uruk period (~4000–3100 BC)</li>
+                    <li>Jemdet Nasr period (~3100–2900 BC)</li>
+                </ul>
+
+                <h6> Early Bronze Age </h6>
+                <ul>
+                    <li> Early Dynastic period (~2900–2350 BC) </li>
+                    <li> Akkadian Empire (~2350–2100 BC) </li>
+                    <li> Third Dynasty of Ur (2112–2004 BC) </li>
+                    <li> Early Assyrian kingdom (24th to 18th century BC) </li>
+                </ul>
+
+                <h6> Middle Bronze Age</h6>
+                <ul>
+                    <li> Isin-Larsa period (19th to 18th century BC) </li>
+                    <li> First Babylonian dynasty (18th to 17th century BC) </li>
+                    <li> Minoan eruption (c. 1620 BC) </li>
+                </ul>
+
+                <h6> Late Bronze Age </h6>
+                <ul>
+                    <li> Old Assyrian period (16th to 11th century BC) </li>
+                    <li> Middle Assyrian period (c. 1365–1076 BC) </li>
+                    <li> Kassites in Babylon, (c. 1595–1155 BC) </li>
+                    <li> Late Bronze Age collapse (12th to 11th century BC) </li>
+                </ul>
+
+                <h6> Iron Age </h6>
+                <ul>
+                    <li> Syro-Hittite states (11th to 7th century BC) </li>
+                    <li> Neo-Assyrian Empire (10th to 7th century BC) </li>
+                    <li> Neo-Babylonian Empire (7th to 6th century BC) </li>
+                </ul>
+
+                <h6> Classical antiquity </h6>
+                <ul>
+                    <li> Persian Babylonia, Achaemenid Assyria (6th to 4th century BC) </li>
+                    <li> Seleucid Mesopotamia (4th to 3rd century BC) </li>
+                    <li> Parthian Babylonia (3rd century BC to 3rd century AD) </li>
+                    <li> Osroene (2nd century BC to 3rd century AD) </li>
+                    <li> Adiabene (1st to 2nd century AD) </li>
+                    <li> Hatra (1st to 2nd century AD) </li>
+                    <li> Roman Mesopotamia (2nd to 7th centuries AD), Roman Assyria (2nd century AD) </li>
+                </ul>
+
+                <h6> Late Antiquity </h6>
+                <ul>
+                    <li> Palmyrene Empire (3nd century AD) </li>
+                    <li> Asōristān (3rd to 7th century AD) </li>
+                    <li> Euphratensis (mid-4th century AD to 7th century AD) </li>
+                    <li> Muslim conquest (mid-7th century AD) </li>
+                </ul>
+            </div>
+
+            <div class="col-6 conten align-items-center">
+                <div class="row">
+                    <div class="col-6">
+                        <img class="img-fluid" src="Images/ancient4.jpg" alt="">
+                    </div>
+                    <div class="col-6">
+                        <img class="img-fluid" src="Images/ancient5.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
-        crossorigin="anonymous"></script>
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+        </script>
 
 </body>
 

@@ -1,11 +1,13 @@
 body {
     background: rgb(235, 188, 119);
     font-family: 'Nunito', sans-serif;
-    
+    font-style: italic;
+    color: rgb(85, 10, 10);
 }
 
 #mainNavbar .navbar-brand {
     color: rgb(226, 128, 36);
+    font-size: 1.8rem;
 }
 
 #mainNavbar {
@@ -19,4 +21,9 @@ body {
 
 #mainNavbar .nav-link:hover {
     color: rgb(238, 197, 125);
+}
+
+#img {
+    width: 800px;
+    height: 2000px;
 }
