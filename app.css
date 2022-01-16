@@ -1,0 +1,55 @@
+body {
+    background: rgb(235, 188, 119);
+    font-family: 'Nunito', sans-serif;
+    font-style: italic;
+    color: rgb(85, 10, 10);
+}
+
+#mainNavbar .navbar-brand {
+    color: rgb(226, 128, 36);
+    font-size: 1.8rem;
+}
+
+#mainNavbar {
+    size: 1.5rem; 
+    font-weight: 100; 
+}
+
+#mainNavbar .nav-link {
+    color: rgb(238, 161, 38);
+}
+
+#mainNavbar .nav-link:hover {
+    color: rgb(238, 197, 125);
+}
+
+#img {
+    width: 800px;
+    height: 2000px;
+}
+
+.socials {
+    list-style: none;
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 0 10px 0;
+    border: 5px solid rgb(95, 63, 10);
+    
+  }
+
+/* .socials a {
+    text-decoration: none;
+    color: rgb(95, 63, 10);
+}
+
+.socials a i{
+    font-size: 2rem;
+    transition: color .4s ease;
+} */
+
+.socials:hover {
+    color: rgb(231, 225, 213);
+    transition: color .4s ease;
+    border: 5px solid rgb(32, 21, 2);
+}
